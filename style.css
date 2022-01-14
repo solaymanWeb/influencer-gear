@@ -56,8 +56,9 @@ influencer-banner
 
 .influencer-banner{
     display: flex;
-    padding: 50px 0px;
     align-items: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
 .influencer-text{
     width: 50%;
@@ -150,4 +151,59 @@ p.see-more-button {
     text-align: right;
     padding: 10px 20px;
 }
-
+/* --------------------
+Contact Area
+---------------------- */
+.contact-area{
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-head{
+    font-size: 30px;
+    text-align: center;
+    padding: 30px 0;
+    font-weight: 700;
+}
+.contact-map{
+    width: 50%;
+    margin-right: 20px;
+}
+.contact-map iframe{
+    width: 100%;
+}
+.contact-from{
+    width: 50%;
+    align-items: center;
+}
+.contact-from form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-from form input{
+   margin-bottom: 20px;
+   padding-left: 10px;
+   padding-top: 4px;
+   padding-bottom: 4px;
+}
+.contact-from h2{
+    padding: 20px 0;
+    text-align: center;
+}
+.contact-from h2 span{
+    color:#E02C6D ;
+}
+input[type="submit"] {
+    width: 31%;
+    font-size: 16px;
+    margin-left: 28%;
+    background-color: #E02C6D;
+    border-radius: 40px;
+    border: none;
+    color: wheat;
+}
+label.email {
+    margin-left: 9%;
+}
