@@ -123,6 +123,7 @@ Brand image
     padding: 10px;
     box-shadow: 0px 4px 18px 0px #bdbdbd;
     margin-bottom: 20px;
+    padding-bottom: 15px;
 }
 .single-product h3, h4{
     padding: 7px 0;
@@ -140,3 +141,13 @@ width: 100%;
 .single-product .rating i{
     color: orange;
 }
+.see-more-button a{
+    color:#E02C6D ;
+    border: none;
+    text-decoration: none;
+}
+p.see-more-button {
+    text-align: right;
+    padding: 10px 20px;
+}
+
