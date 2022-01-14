@@ -195,15 +195,23 @@ Contact Area
 .contact-from h2 span{
     color:#E02C6D ;
 }
-input[type="submit"] {
-    width: 31%;
-    font-size: 16px;
-    margin-left: 28%;
-    background-color: #E02C6D;
-    border-radius: 40px;
-    border: none;
-    color: wheat;
-}
 label.email {
     margin-left: 9%;
 }
+/*------------------------
+ Footer
+-------------------------*/
+.footer-area{
+    text-align: center;
+    color: white;
+    background-color: #0A0826;
+    padding: 50px 0;
+}
+.footer-area h3{
+    font-size: 20px;
+}
+.footer-social-icon{
+    font-size: 30px;
+
+}
+/* End */
