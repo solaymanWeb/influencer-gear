@@ -1,4 +1,89 @@
 *{margin: 0; margin: 0;}
 body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.main-menu{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+header{
+    background-color: blanchedalmond;
+}
+.main-menu .logo a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.menu {
+
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    list-style: none;
+    align-items: center;
+}
+.menu ul li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 20px;
+    color:black;
+
+
+}
+/* ----------------------
+influencer-banner 
+------------------------*/
+
+.influencer-banner{
+    display: flex;
+    padding: 50px 0px;
+    align-items: center;
+}
+.influencer-text{
+    width: 50%;
+}
+.influencer-text h1{
+    font-size: 40px;
+}
+.influencer-text p{
+    padding: 10px 0px;
+}
+.influencer-image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
     
+}
+.influencer-image img{
+    width: 60%;
+
+}
+.main-button{
+    background-color: #E02C6D;
+    color: white;
+    font-size: 15px;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
 }
