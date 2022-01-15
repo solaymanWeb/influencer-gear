@@ -249,6 +249,9 @@ Responsive css
     .single-product {
         margin-bottom: 50px;
     }
+    .brand-image img {
+        width: 10%;
+    }
 }
 @media(max-width:768px){
     .brand-image img {
