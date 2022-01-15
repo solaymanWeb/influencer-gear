@@ -215,3 +215,71 @@ label.email {
 
 }
 /* End */
+/* ----------------------------
+Responsive css 
+----------------- */
+ /* Large devices (laptops/desktops, 992px and up) */
+@media(max-width:992px){
+
+    .container{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .main-container{
+        width:80%;
+        margin: 0 auto;
+    }
+    .main-menu {
+        align-items: center;
+        justify-content: center;
+    }
+    .influencer-image {
+        justify-content: center;
+    }
+    .influencer-text {
+        padding-left: 100px;
+    }
+    .brand-image {
+        justify-content: space-evenly;
+    }
+    .all-product {
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .single-product {
+        margin-bottom: 50px;
+    }
+}
+@media(max-width:768px){
+    .brand-image img {
+        width: 10%;
+    }
+}
+@media(max-width:580px){
+    .contact-area {
+   
+        flex-direction: column;
+    }
+    .contact-map {
+        width: 100%;
+    }
+    .contact-from {
+        width: 100%;
+    }
+    .menu {
+        display: none;
+    }
+    .influencer-text h1 {
+        font-size: 30px;
+    }
+    .influencer-banner {
+        flex-direction: column;
+    }
+    .influencer-text {
+        width: 80%;
+    }
+    .influencer-image {
+        width: 80%;
+        padding-top: 50px;
+    }
+}
